@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="utf-8" />
+<title>欢迎来到Maxime的网站</title>
+</head>
+<body style="background-color:black;">
+<h1 style="color:white;text-align:center;">Hello!</h1>
+
+<body>
+<p align="center">
+<audio controls>
+	<source src="http://sc1.111ttt.com/2016/1/12/10/205102107353.mp3" type="audio/mpeg">
+</audio>
+</p>
+</body>
+<hr>
+
+<body>
+<p align="center">
+<video width="900" height="692" controls>
+	<source src="http://hd.yinyuetai.com/uploads/videos/common/061A015C4F2F6A20EE1826CFD0155FDD.mp4" type="video/mp4">
+</video>
+</p>
+</body>
+<hr>
+
+<p style="color:white;font-size:30px;" >Welcome to my website! 
+<br>
+Come on and fly with Maxime
+<br>
+Here is The GOT season 7: 6th
+<br>
+It is Baidu Yun. If the url is not available, connect Maxime please!</p>
+<hr>
+<a href="http://pan.baidu.com/s/1o7D9Djk" style="color:red;font-size:30px;">GOT_S7_E06</a>
+<p style="color:white;font-size:30px;"> Password:2d6n </p>
+<hr>
+<img src="http://www.runoob.com/images/logo.png" alt="runoob.com" width="336" height="69">
+
+<p style="color:white;font-size:30px;" > Your loction is :</p>
+<p style="color:white;font-size:30px;" align="center" id="demo">******<br>******</p>
+<div align="center">
+<button onclick="getLocation()" style="width:400px;height:150px;" >Location</button>
+</div>
+
+<p align="center" style="color:white;font-size:30px;">Station Master: Maxime Li<br>E-mail:1139000858@qq.com</P>
+ 
+<script>
+var x=document.getElementById("demo");
+function getLocation()
+{
+	x.innerHTML="Determining your location<br>Please wait!";
+	navigator.geolocation.watchPosition(showPosition);
+}
+function showPosition(position)
+{
+	x.innerHTML="LAT :"+position.coords.latitude+
+	"<br>LON:"+position.coords.longitude+
+	"<br>ALT:"+position.coords.altitude;
+}
+
+
+
+
+</script>
+</body>
+</html>
+
+
+
+
+	
